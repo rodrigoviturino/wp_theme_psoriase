@@ -1,5 +1,5 @@
-- SASS
-  Comando para terminal
+* SASS
+  - Comando para terminal
   - sass --watch --no-source-map style.scss:../style.css
 
 * Habilitando Multisite Wordpress
