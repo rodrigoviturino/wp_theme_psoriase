@@ -1,0 +1,95 @@
+.header{
+    position: relative;
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+
+        &__logo{
+            img {
+                width: 150px;
+            }
+        }
+        
+        &__nav{
+            margin: 0 auto;
+            // width: 50%;
+            &-menu{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                list-style: none;
+                margin: 0;
+                width: 100%;
+                padding: 0;
+                text-align: center;
+                
+
+                li{
+                    position: relative;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 0;
+
+                    &:hover{
+                        .submenu{
+                            opacity: 1;
+                            transition: all 0.5s;
+                        }
+                    }
+                    a {
+                        width: 100%;
+                        color: $colorText;
+                        text-decoration: none;
+                        display: inline-block;
+                        text-align: center;
+                        margin: 0 10px;
+                        line-height: 18px;
+                        @include responsive-font-size(13px);
+                    }
+
+                    .submenu{
+                        opacity: 0;
+                        position: absolute;
+                        min-width: 200px;
+                        top: 100%;
+                        bottom: 0;
+                        padding: 0;
+                        margin: 0 auto;
+                        left: 0px;
+                        right: 50%;
+                        transform: translateX(-20%);
+                        transition: all 0.5s ease;
+                        list-style: none;
+                        color: $colorPrimary;
+                        z-index: 5;
+                        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+                        
+                        li {
+                            background-color: #4a4a4a;
+                            padding: 10px;
+                            border-radius: 4px;
+                            a{
+                                margin: 0;
+                                text-align: left;
+                                color: $white;
+                                display: inline-block;
+                                width: 100%;
+                                line-height: 18px;
+                                @include responsive-font-size(13px);
+                            }
+                        }
+                    }
+                }
+            }       
+        }
+        
+        &__search{
+            
+        }
+    }
+}

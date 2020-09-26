@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Bootstrap */
+    @import "./bootstrap-scss/bootstrap-reboot.scss";
+    @import "./bootstrap-scss/bootstrap-grid.scss";
+    @import "./bootstrap-scss/bootstrap.scss";
+/* end Bootstrap */
+
+/* Website */
+@import "global/global";
+@import "base/variable-custom";
+
+@import "global/header";
+@import "global/footer";
+@import "global/internal_pages";
+
+@import "pages/home";
+
+/* end Website */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
