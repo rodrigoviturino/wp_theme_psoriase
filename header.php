@@ -19,8 +19,12 @@
       </a>
     </div>
 
-    <nav class="header__wrapper__nav">
-      <ul class="header__wrapper__nav-menu">
+
+    <nav class="header__wrapper__nav" data-anima="menu" data-menu="suave">
+        <!-- Button Mobile -->
+        <button class="header__wrapper__nav-btnMobile" data-menu="mobile" aria-expanded="false" aria-controls="menu">Menu</button>
+
+      <ul class="header__wrapper__nav-menu" data-menu="list">
         <li class="item">
           <a href="#">
             Psoriase
@@ -60,9 +64,10 @@
         </li>
       </ul>
     </nav>
-      
+
     <div class="header__wrapper__search">
-      Lupa
+        <i class="fas fa-search"></i>
+        LUPA
     </div>
 
     </div>

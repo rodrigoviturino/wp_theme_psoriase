@@ -30,7 +30,9 @@
                             <img src="<?= get_template_directory_uri(); ?>/assets/images/thumbnail-post.jpg" alt="">
                         </div>
                         <div class="info-post">
-                            <h2 class="title">Titulo Post</h2>    
+                            <h2 class="title">
+                                <a href="#">Preparando Para a sua Próxima Consulta</a>
+                            </h2>
                             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quasi, voluptate a est eum cumque quod explicabo ipsum sit dicta nobis exercitationem eius neque? Placeat voluptas nostrum aut eos eaque?</p>
                         </div>
                     </div>
@@ -42,7 +44,9 @@
                             <img src="<?= get_template_directory_uri(); ?>/assets/images/thumbnail-post.jpg" alt="">
                         </div>
                         <div class="info-post">
-                            <h2 class="title">Titulo Post</h2>    
+                            <h2 class="title">
+                                <a href="#">Preparando Para a sua Próxima Consulta</a>
+                            </h2>
                             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quasi, voluptate a est eum cumque quod explicabo ipsum sit dicta nobis exercitationem eius neque? Placeat voluptas nostrum aut eos eaque?</p>
                         </div>
                     </div>
@@ -54,7 +58,9 @@
                             <img src="<?= get_template_directory_uri(); ?>/assets/images/thumbnail-post.jpg" alt="">
                         </div>
                         <div class="info-post">
-                            <h2 class="title">Titulo Post</h2>    
+                            <h2 class="title">
+                                <a href="#">Preparando Para a sua Próxima Consulta</a>
+                            </h2>
                             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quasi, voluptate a est eum cumque quod explicabo ipsum sit dicta nobis exercitationem eius neque? Placeat voluptas nostrum aut eos eaque?</p>
                         </div>
                     </div>
@@ -66,7 +72,9 @@
                             <img src="<?= get_template_directory_uri(); ?>/assets/images/thumbnail-post.jpg" alt="">
                         </div>
                         <div class="info-post">
-                            <h2 class="title">Titulo Post</h2>    
+                            <h2 class="title">
+                                <a href="#">Preparando Para a sua Próxima Consulta</a>
+                            </h2>
                             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quasi, voluptate a est eum cumque quod explicabo ipsum sit dicta nobis exercitationem eius neque? Placeat voluptas nostrum aut eos eaque?</p>
                         </div>
                     </div>
@@ -78,7 +86,9 @@
                             <img src="<?= get_template_directory_uri(); ?>/assets/images/thumbnail-post.jpg" alt="">
                         </div>
                         <div class="info-post">
-                            <h2 class="title">Titulo Post</h2>    
+                            <h2 class="title">
+                                <a href="#">Preparando Para a sua Próxima Consulta</a>
+                            </h2>
                             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quasi, voluptate a est eum cumque quod explicabo ipsum sit dicta nobis exercitationem eius neque? Placeat voluptas nostrum aut eos eaque?</p>
                         </div>
                     </div>

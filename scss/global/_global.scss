@@ -6,3 +6,8 @@ img{
 .space-section{
     padding: 100px 0;
 }
+
+.active{
+    display: block !important;
+    animation: all 0.5s forwards;
+}
