@@ -1,3 +1,29 @@
-.introducao{
-    
+.pageHome{
+
+    &__cardPost{
+
+    &__item{
+        margin-bottom: 80px;
+        .info-post{
+            padding: 0 10px;
+            .title{
+                a{
+                    display: inline-block;
+                    text-decoration:none;
+                    color: $colorSecondary;
+                    font-weight: 700;
+                    font-size: 100%;
+                    margin: 15px 0;
+                    @include responsive-font-size(16px);
+                }
+            }
+            .text{
+                font-weight: $colorTextPost;
+                line-height: 21px;
+                margin-bottom: 15px;
+                @include responsive-font-size(14px);
+            }
+        }
+    }
+}
 }

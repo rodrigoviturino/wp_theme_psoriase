@@ -14453,6 +14453,10 @@ img {
   max-width: 100%;
 }
 
+.space-section {
+  padding: 100px 0;
+}
+
 .header {
   position: relative;
 }
@@ -14531,6 +14535,28 @@ img {
   line-height: 18px;
   font-size: 0.8125rem;
 }
+.pageHome__cardPost__item {
+  margin-bottom: 80px;
+}
+.pageHome__cardPost__item .info-post {
+  padding: 0 10px;
+}
+.pageHome__cardPost__item .info-post .title a {
+  display: inline-block;
+  text-decoration: none;
+  color: #89de2e;
+  font-weight: 700;
+  font-size: 100%;
+  margin: 15px 0;
+  font-size: 1rem;
+}
+.pageHome__cardPost__item .info-post .text {
+  font-weight: #606060;
+  line-height: 21px;
+  margin-bottom: 15px;
+  font-size: 0.875rem;
+}
+
 /* end Website */
 body {
   font-family: "Montserrat", sans-serif;
