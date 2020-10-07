@@ -1,4 +1,9 @@
 .pageHome {
+  .introducao {
+    @include media-breakpoint-only(md) {
+      display: none;
+    }
+  }
   &__cardPost {
     &__item {
       margin-bottom: 80px;
