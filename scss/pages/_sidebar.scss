@@ -1,0 +1,46 @@
+.crp-list-title {
+  position: relative;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: map-get($spacers, 3);
+  border-bottom: solid 1px #e1e1e1;
+  width: 100%;
+  @include responsive-font-size(15px);
+
+  &::after {
+    content: "";
+    display: inline-block;
+    background-color: #89de2e;
+    height: 3px;
+    width: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.crp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  .crp-list-item {
+    display: flex;
+    &::before {
+      font-family: "Font Awesome 5 Pro";
+      font-weight: 900;
+      content: "\f105";
+      display: inline-block;
+      margin-right: map-get($spacers, 2);
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+    .crp-list-item-title {
+      a {
+        color: #89de2e;
+        @include responsive-font-size(13px);
+      }
+    }
+  }
+}
