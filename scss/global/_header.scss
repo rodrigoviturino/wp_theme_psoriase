@@ -1,6 +1,25 @@
 .header {
   position: relative;
 
+  /* Anima Scroll */
+  &.scrollHide {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    animation: showRight 0.5s forwards;
+    z-index: 10;
+    padding: 0;
+
+    .header__wrapper {
+      padding: 10px 0;
+    }
+    .header__wrapper__nav-menu {
+      top: 60px;
+    }
+  }
+  /* end Anima Scroll */
+
   &__wrapper {
     display: flex;
     align-items: center;
