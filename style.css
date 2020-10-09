@@ -14465,13 +14465,18 @@ img {
 .active {
   display: flex !important;
   flex-direction: column;
-  justify-content: center !important;
+}
+.active #navbarResponsive {
+  background-color: #fff;
+}
+.active .header__wrapper__nav-menu {
+  animation: showRight 0.5s forwards;
   position: absolute;
+  top: 80px;
+  padding: 30px 0;
   left: 0;
   right: 0;
-  height: 100%;
-  background-color: #fff;
-  animation: showRight 0.5s forwards;
+  background-color: #fff !important;
 }
 .active .menu-item .sub-menu {
   display: block;
@@ -14485,7 +14490,7 @@ img {
 @keyframes showRight {
   from {
     opacity: 0;
-    transform: translate3d(0, 30px, 0);
+    transform: translate3d(0, -30px, 0);
   }
   to {
     opacity: 1;
@@ -14494,6 +14499,23 @@ img {
 }
 .header {
   position: relative;
+  /* Anima Scroll */
+  /* end Anima Scroll */
+}
+.header.scrollHide {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  animation: showRight 0.5s forwards;
+  z-index: 10;
+  padding: 0;
+}
+.header.scrollHide .header__wrapper {
+  padding: 10px 0;
+}
+.header.scrollHide .header__wrapper__nav-menu {
+  top: 60px;
 }
 .header__wrapper {
   display: flex;
