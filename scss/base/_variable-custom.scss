@@ -1,8 +1,19 @@
-$colorPrimary: #313B48;
+$colorPrimary: #313b48;
 $colorSecondary: #89de2e;
-$colorTerciary: #28313D;
+$colorTerciary: #28313d;
 $colorTextPost: #606060;
 $colorText: #4c5867;
 
 $white: #fff;
 $black: #000;
+
+@keyframes showRight {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -1,13 +1,13 @@
-img{
-    display: block;
-    max-width: 100%;
+img {
+  display: block;
+  max-width: 100%;
 }
 
-.space-section{
-    padding: 100px 0;
+.space-section {
+  padding: 100px 0;
 }
 
-.active{
-    display: block !important;
-    animation: all 0.5s forwards;
+.active {
+  display: flex !important;
+  animation: showRight 0.5s forwards;
 }
