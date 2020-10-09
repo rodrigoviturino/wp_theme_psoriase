@@ -3,10 +3,20 @@
   padding: map-get($spacers, 4) 0 0;
   color: $white;
   text-align: center;
+  @include media-breakpoint-only(xs){
+    padding-top: map-get($spacers, 5);
+  }
 
   &__top {
     padding-bottom: map-get($spacers, 4);
     &__column {
+      @include media-breakpoint-only(xs){
+        padding-bottom: map-get($spacers, 4);
+
+        &:last-child{
+          padding-bottom: 0;
+        }
+      }
       .title {
         margin-bottom: map-get($spacers, 4);
         h3 {
@@ -82,16 +92,27 @@
     display: flex;
     align-items: center;
 
+    @include media-breakpoint-only(xs){
+      padding: map-get($spacers, 4) 0;
+    }
+
     &__copyright {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      @include media-breakpoint-only(xs){
+        flex-direction: column;
+      }
       .text {
         p {
           color: #fff;
           line-height: 21px;
           margin-bottom: 0;
           @include responsive-font-size(14px);
+          @include media-breakpoint-only(xs){
+            text-align: left;
+            padding-bottom: map-get($spacers, 3);
+          }
 
           a {
             text-decoration: none;

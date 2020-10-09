@@ -1,8 +1,11 @@
 const btnMobile = document.querySelector("[data-menu='mobile']");
 const listMenu = document.querySelector(".header__wrapper__nav-menu");
+const t = document.querySelector("#navbarResponsive");
 
 function handleClick(event) {
   listMenu.classList.toggle("active");
+  t.classList.toggle("active");
+  
 }
 btnMobile.addEventListener("click", handleClick);
 
